@@ -1,0 +1,19 @@
+# ninja log v5
+3	591	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp.o	d1f53407408ab8d5
+1	746	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o	d9a4f5726640c3c4
+2	812	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.o	494b073580896f66
+812	907	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o	cd90f16a50d7f1b2
+1	1130	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o	d8f98ec271f2e77c
+2	1432	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o	aeeadd2f4699cbef
+2	1922	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification.cpp.o	88a5b281d358d357
+4	2699	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o	58a2d1b7bb3c3e23
+1	2922	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassification.cpp.o	674f4997820aaa98
+591	3388	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification.cpp.o	c66e7fc0b7ddc20e
+3	3406	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp.o	e22461d269590447
+3	3482	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o	1fdb9659a6b25bf7
+1130	5275	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o	b6cf5a30a12a18ef
+747	5493	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp.o	a32dd0bccfdec304
+1922	5969	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o	5d0b3e6a31f4b862
+907	6295	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o	ebcaff4f8c1d9302
+1432	6739	0	CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o	206cff3b5b5b60f6
+6740	7150	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libStateManagerJNI.so	fba024a0e23a5c47

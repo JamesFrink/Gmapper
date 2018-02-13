@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9e0008fc</color>
+    <color name="colorPrimaryDark">#59608f</color>
+    <color name="colorAccent">#464a78</color>
+    <color name="bgGestureList">#0fcccccc</color>
+</resources>

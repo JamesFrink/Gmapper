@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView_EditGesture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="nl.jamesfrink.gmapper.GestureEditor">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:id="@+id/constrain_Background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:isScrollContainer="true"
+        android:nestedScrollingEnabled="true"
+        android:scrollbars="vertical">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/textInput_gestureName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="1"
+            android:minLines="1"
+            android:selectAllOnFocus="false"
+            android:singleLine="true"
+            android:text="Gesture name here"
+            android:textAlignment="viewStart"
+            android:textSize="24sp"
+            android:typeface="sans"
+            app:layout_constraintEnd_toStartOf="@+id/switch_gestureActive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/switch_gestureActive"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:checked="false"
+            android:textColorLink="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/textInput_gestureName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textInput_gestureName"
+            tools:checked="false" />
+
+        <TextView
+            android:id="@+id/textView_gestureExamples"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="0"
+            app:layout_constraintStart_toEndOf="@+id/gestureExamplesNameField"
+            app:layout_constraintTop_toTopOf="@+id/gestureExamplesNameField" />
+
+        <TextView
+            android:id="@+id/gestureExamplesNameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Training examples: "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInput_gestureName" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_gestureExamples">
+
+            <Button
+                android:id="@+id/button_collectTrainingData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Collect Data" />
+
+            <Button
+                android:id="@+id/button_clearAllTrainingData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Clear Data" />
+        </LinearLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:background="#9efcfcfc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerVIew_GestureEditor"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginStart="1dp"
+                android:background="#bdeceeed"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

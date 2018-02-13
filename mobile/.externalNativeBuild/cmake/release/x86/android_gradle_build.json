@@ -1,0 +1,137 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/james/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"StateManagerJNI-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "StateManagerJNI",
+			"buildCommand" : "/Users/james/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86 --target StateManagerJNI",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/seriesClassification.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/fastDTW.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/warpPath.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/dtw.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/searchWindow.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/svmClassification.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/neuralNetwork.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/modelSet.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/regression.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/knnClassification.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/def.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/GestureClassifier.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/StateManagerJNI.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/InterfaceJNI.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/james/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/james/Library/Android/sdk/ndk-bundle/sysroot  -DStateManagerJNI_EXPORTS -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/SaveStateManager.cpp",
+					"workingDirectory" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/build/intermediates/cmake/release/obj/x86/libStateManagerJNI.so",
+			"toolchain" : "13947843253180756485"
+		}
+	},
+	"toolchains" : 
+	{
+		"13947843253180756485" : 
+		{
+			"cCompilerExecutable" : "/Users/james/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/james/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

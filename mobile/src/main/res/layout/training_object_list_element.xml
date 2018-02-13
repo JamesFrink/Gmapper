@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_bg_training"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#45ffffff">
+
+    <LinearLayout
+        android:id="@+id/LinLayout_a"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/t_prependTimeStamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date: " />
+
+        <TextView
+            android:id="@+id/textView_Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="dd/mm/yy 00:00:00" />
+
+        <TextView
+            android:id="@+id/t_prependLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Length:" />
+
+        <TextView
+            android:id="@+id/textView_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="00:00:000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinLayout_"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinLayout_a">
+
+        <TextView
+            android:id="@+id/FoundTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Recognized:"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/textView_numRecognized"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/__PlaceHolder_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Times"
+            android:textAlignment="viewStart" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

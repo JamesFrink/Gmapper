@@ -1,0 +1,16 @@
+Executable : /Users/james/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile
+-B/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/build/intermediates/cmake/release/obj/x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/james/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions -std=c++11
+-DCMAKE_TOOLCHAIN_FILE=/Users/james/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/james/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+

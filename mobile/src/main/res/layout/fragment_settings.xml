@@ -1,0 +1,464 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nl.jamesfrink.gmapper.Settings">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/backGround"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:id="@+id/switch_useWatch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Use wearable instead of smartphone"
+                    android:textAlignment="viewStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/iftttEditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9de5e5e5"
+                android:fadingEdgeLength="2dp">
+
+                <TextView
+                    android:id="@+id/textView_titleIFTTT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="IFTTT"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_IFTTT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Send IFTTT event when gesture is recognized"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_titleIFTTT" />
+
+                <EditText
+                    android:id="@+id/editText_webhookKey"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView_webhookKeyNote"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBox_IFTTT" />
+
+                <TextView
+                    android:id="@+id/textView_webhookKeyNote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Webhook Key:"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/editText_webhookKey"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editText_webhookKey" />
+
+                <TextView
+                    android:id="@+id/textView_disclaimerIFTTT"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#98d8d8d8"
+                    android:text="Note that the Webhook event requires the same name as the gesture name."
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText_webhookKey" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/oscEditor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9de5e5e5"
+                android:fadingEdgeLength="2dp">
+
+                <TextView
+                    android:id="@+id/textView_OSCTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="OSC"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_OscSendEvent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:text="Send OSC message when gesture is recognized"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_OSCTitle" />
+
+                <TextView
+                    android:id="@+id/textView_host"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Host:"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/editText_host"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editText_host" />
+
+                <EditText
+                    android:id="@+id/editText_host"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView_host"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBox_OscSendEvent" />
+
+                <TextView
+                    android:id="@+id/textView_port"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Port:"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/editText_host"
+                    app:layout_constraintStart_toEndOf="@+id/editText_host"
+                    app:layout_constraintTop_toTopOf="@+id/editText_host" />
+
+                <EditText
+                    android:id="@+id/editText_port"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:selectAllOnFocus="false"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView_port"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBox_OscSendEvent" />
+
+                <TextView
+                    android:id="@+id/textView_disclaimer"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#98d8d8d8"
+                    android:text="OSC messages will be sent in the format \n/Gmapper/gesture nameOfGesture"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText_host" />
+            </android.support.constraint.ConstraintLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="3dp" />
+
+            <LinearLayout
+                android:id="@+id/segmentEditor_Lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#9de5e5e5"
+                android:fadingEdgeLength="2dp"
+                android:orientation="vertical">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/titleConstraint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:id="@+id/textView_segmentTitleTop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="Segmentation settings"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/viewSegmentOnThreshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#8efdfdfd">
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStartTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Start force:"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="2.00 G"
+                        android:textAlignment="textEnd"
+                        app:layout_constraintEnd_toEndOf="@+id/viewSegmentOnThreshold"
+                        app:layout_constraintStart_toEndOf="@+id/textView_thresholdStartTitle"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <SeekBar
+                        android:id="@+id/seekBar_thresholdStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:max="10000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_thresholdStartTitle" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStartTimeTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:text="Time above start force:"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/seekBar_thresholdStart" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdTimeStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="200.00 ms"
+                        android:textAlignment="textEnd"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView_thresholdStartTimeTitle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView_thresholdStartTimeTitle"
+                        app:layout_constraintTop_toTopOf="@+id/textView_thresholdStartTimeTitle" />
+
+                    <SeekBar
+                        android:id="@+id/seekBar_thresholdTimeStart"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:max="10000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_thresholdStartTimeTitle" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdCostsTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:text="DTW cost limit"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/seekBar_thresholdTimeStart" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdCosts"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="100.00 cost"
+                        android:textAlignment="textEnd"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView_thresholdCostsTitle"
+                        app:layout_constraintTop_toTopOf="@+id/textView_thresholdCostsTitle" />
+
+                    <SeekBar
+                        android:id="@+id/seekbar_thresholdCosts"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:max="10000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_thresholdCosts" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="8dp" />
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/viewSegmentOffThreshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#8efdfdfd">
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStopTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Stop force:"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="1.10 G"
+                        android:textAlignment="textEnd"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView_thresholdStopTitle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView_thresholdStopTitle"
+                        app:layout_constraintTop_toTopOf="@+id/textView_thresholdStopTitle" />
+
+                    <SeekBar
+                        android:id="@+id/seekBar_thresholdStop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:max="10000"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_thresholdStopTitle" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdTimeStop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:text="200.00 ms"
+                        android:textAlignment="textEnd"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView_thresholdStopTimeTitle"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/textView_thresholdStopTimeTitle"
+                        app:layout_constraintTop_toTopOf="@+id/textView_thresholdStopTimeTitle" />
+
+                    <TextView
+                        android:id="@+id/textView_thresholdStopTimeTitle"
+                        android:layout_width="0dp"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="8dp"
+                        android:text="Time below stop force:"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/seekBar_thresholdStop" />
+
+                    <SeekBar
+                        android:id="@+id/seekBar_thresholdTimeStop"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:max="10000"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_thresholdStopTimeTitle" />
+
+                </android.support.constraint.ConstraintLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/button_restoreDefaults"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Restore Segmentation Defaults" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
