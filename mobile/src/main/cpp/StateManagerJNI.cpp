@@ -25,6 +25,7 @@ static jobject stateManagerJava;
 
 jmethodID setCurrentClassificationStateCallback;
 jmethodID classifiedGestureCallback;
+jmethodID gestureManagerGetEditFocus;
 //--
 
 // Just to be sure
@@ -50,12 +51,13 @@ Java_nl_jamesfrink_gmapper_StateManager_initializeJNI ( JNIEnv * const env, jobj
         stateManagerJava = env->NewGlobalRef( pThis );
         setCurrentClassificationStateCallback = env->GetMethodID( stateManagerClass, "setCurrentClassificationState", "(I)V" );
         classifiedGestureCallback = env->GetMethodID( stateManagerClass, "classifiedGestureCallback", "(I)V" );
+        gestureManagerGetEditFocus = env->GetMethodID( stateManagerClass, "getGestureEditorFocus", "(I)V" );
 
         sharedMemoryInterface.setInstance( env->NewGlobalRef( sharedMemory ) );
         std::string directoryString = INTERFACE::jstring2string( env, directory );
         gestureInstance.initializeInterface( &sharedMemoryInterface, &settings, directoryString );
 
-        env->DeleteLocalRef(stateManager); // No longer needed
+        env->DeleteLocalRef( stateManager ); // No longer needed
 
         gestureInstance.classifiedGestureCallback = [  ]( int32_t gestureIndex )
         {
@@ -70,6 +72,14 @@ Java_nl_jamesfrink_gmapper_StateManager_initializeJNI ( JNIEnv * const env, jobj
             return INTERFACE::runOutsideOfContext( [ state ]( JNIEnv *g_env ) {
                 g_env->CallVoidMethod( stateManagerJava, setCurrentClassificationStateCallback,
                                       state );
+                return true;
+            });
+        };
+
+        gestureInstance.getEditorFocus = [  ]( int32_t indexOfGesture ) {
+            return INTERFACE::runOutsideOfContext( [ indexOfGesture ]( JNIEnv *g_env ) {
+                g_env->CallVoidMethod( stateManagerJava, gestureManagerGetEditFocus,
+                                       indexOfGesture );
                 return true;
             });
         };

@@ -14,7 +14,8 @@
         android:layout_marginBottom="32dp"
         android:layout_marginEnd="32dp"
         android:clickable="true"
-        android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

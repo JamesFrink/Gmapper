@@ -107,9 +107,13 @@ void GestureClassifier::addNewGesture ( std::string nameOfGesture )
     Gesture toAdd = Gesture{ gestureIdCounter++, false, nameOfGesture, { } };
     lock.lock(  );
     gestureList.push_back( toAdd );
-    lock.unlock(  );
 
     sharedMemory->addNoContext( sharedMemory->reference, INTERFACE::GestureJava::createJavaGestureNoContext( toAdd ) );
+
+    if ( getEditorFocus != nullptr )
+        if ( !getEditorFocus( static_cast< int32_t >( gestureList.size(  ) - 1 ) ) )
+            __android_log_print( ANDROID_LOG_WARN, "GestureClassifier: ", "JVM Callback Failed" );
+    lock.unlock(  );
 
     saveState.lockIndexFile.lock(  );
     saveState.indexFile[ "gestureIdCounter" ] = gestureIdCounter;

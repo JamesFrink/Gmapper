@@ -56,6 +56,7 @@ public:
 
     std::function< bool ( int32_t index ) > classifiedGestureCallback = nullptr;
     std::function< bool ( int32_t newState ) > setCurrentClassificationState = nullptr;
+    std::function< bool ( int32_t index ) > getEditorFocus = nullptr;
 
 protected:
     struct AccelerometerData

@@ -3,7 +3,7 @@ arguments :
 -H/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile
 -B/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
--DANDROID_PLATFORM=android-23
+-DANDROID_PLATFORM=android-24
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/build/intermediates/cmake/release/obj/armeabi-v7a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=/Users/james/Library/Android/sdk/ndk-bundle

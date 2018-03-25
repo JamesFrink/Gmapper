@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=arm64-v8a
 ANDROID_NDK:UNINITIALIZED=/Users/james/Library/Android/sdk/ndk-bundle
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-23
+ANDROID_PLATFORM:UNINITIALIZED=android-24
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=c++_shared
@@ -196,10 +196,10 @@ Project_BINARY_DIR:STATIC=/Users/james/Documents/of_v0.9.8_android_release/examp
 Project_SOURCE_DIR:STATIC=/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile
 
 //Dependencies for the target
-StateManagerJNI_LIB_DEPENDS:STATIC=general;/Users/james/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm64/usr/lib/liblog.so;
+StateManagerJNI_LIB_DEPENDS:STATIC=general;/Users/james/Library/Android/sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/liblog.so;
 
 //Path to a library.
-log-lib:FILEPATH=/Users/james/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm64/usr/lib/liblog.so
+log-lib:FILEPATH=/Users/james/Library/Android/sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/liblog.so
 
 
 ########################

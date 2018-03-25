@@ -162,6 +162,17 @@ class GestureEditor( val stateManager : StateManager) : Fragment(  ) {
         trainingExamplesView.layoutManager = layoutManager
         //trainingExamplesView.adapter = gesture?.trainingSeriesObjects!!.rAdapter
         trainingExamplesView.addItemDecoration( DividerItemDecoration( trainingExamplesView.context, layoutManager.orientation ) )
+
+
+        // Fix this
+        if ( gesture != null ) {
+            textEdit.setText(gesture!!.nameOfGesture)
+            switch.isChecked = gesture!!.active
+            numExamples.text = gesture!!.numberOfRecordings.toString()
+            trainingExamplesView.swapAdapter(gesture!!.trainingSeriesObjects.rAdapter, true)
+        }
+        //--
+
         initialized = true
         return view
     }
@@ -210,12 +221,15 @@ class GestureEditor( val stateManager : StateManager) : Fragment(  ) {
             override fun run(  ) {
                 run {
                     indexOfGesture = gestureIndex
-                    // Initialize
-                    textEdit.setText( temporaryGesture.nameOfGesture )
-                    switch.isChecked = temporaryGesture.active
-                    numExamples.text = temporaryGesture.numberOfRecordings.toString(  )
-                    trainingExamplesView.swapAdapter( temporaryGesture.trainingSeriesObjects.rAdapter, true )
                     gesture = temporaryGesture
+                    // Initialize
+                    if ( initialized )
+                    {
+                        textEdit.setText(temporaryGesture.nameOfGesture)
+                        switch.isChecked = temporaryGesture.active
+                        numExamples.text = temporaryGesture.numberOfRecordings.toString()
+                        trainingExamplesView.swapAdapter(temporaryGesture.trainingSeriesObjects.rAdapter, true)
+                    }
                 }
             }
         } )

@@ -60,7 +60,7 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
     private var sensorManager : SensorManager
     private var gestureEditor : GestureEditor
     //private var dataLayerListenerService : DataLayerListenerService
-    var messageHandler = MessageHandler( context )
+    //var messageHandler = MessageHandler( context )
 
     init {
         sharedGestureList.setAdapter( gestureAdapter )
@@ -79,6 +79,7 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
         pagerAdapter = PagerAdapter( fragmentManager, this )
         gestureEditor = pagerAdapter.gestureFrame.gestureEditor
 
+        /*
         messageHandler.listenCallback = {
             when ( it.path )
             {
@@ -91,6 +92,7 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
                 }
             }
         }
+        */
     }
 
     companion object
@@ -116,7 +118,7 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
 
     fun onStop ( )
     {
-        messageHandler.send( serialize( 0 ) )
+        //messageHandler.send( serialize( 0 ) )
     }
 
     fun onDestroy (  )
@@ -124,8 +126,8 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
         sharedGestureList.clear(  )
         if ( !destroyJNI(  ) )
             Log.d( "nl.jamesfrink.gmapper.StateManager", "Did not destroy" )
-        messageHandler.send( serialize( 0 ) )
-        messageHandler.onDestroy(  )
+        //messageHandler.send( serialize( 0 ) )
+        //messageHandler.onDestroy(  )
     }
 
     private fun classifiedGestureCallback ( gestureIndex : Int )
@@ -147,6 +149,18 @@ class StateManager ( val context: Context, val fragmentManager: FragmentManager 
                 run {
                     pagerAdapter.gestureFrame.setClassificationState( state )
                     pagerAdapter.settings.setClassificationState( state )
+                }
+            }
+        } )
+    }
+
+    private fun getGestureEditorFocus ( gestureIndex : Int )
+    { // C++ Callback
+        handler.post( object : Runnable {
+            override fun run(  ) {
+                run {
+                    pagerAdapter.gestureFrame.gestureEditor.setNewGesture( sharedGestureList[ gestureIndex ], gestureIndex )
+                    pagerAdapter.gestureFrame.displayFragment( 1 )
                 }
             }
         } )

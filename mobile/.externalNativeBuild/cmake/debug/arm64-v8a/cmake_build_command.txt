@@ -3,7 +3,7 @@ arguments :
 -H/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile
 -B/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/debug/arm64-v8a
 -DANDROID_ABI=arm64-v8a
--DANDROID_PLATFORM=android-23
+-DANDROID_PLATFORM=android-24
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/build/intermediates/cmake/debug/obj/arm64-v8a
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=/Users/james/Library/Android/sdk/ndk-bundle

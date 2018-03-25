@@ -75,11 +75,12 @@ class Settings( val stateManager : StateManager) : Fragment(  ) {
                 run {
                     // useWeareable
                     useWear = useWearable
+                    /*
                     if ( useWear )
                         stateManager.messageHandler.send( serialize( 1 ) )
                     else
                         stateManager.messageHandler.send( serialize( 0 ) )
-
+                    */
                     useWearableSwitch?.isChecked = useWearable
                     Log.d( "useWearable", "Call watch function here as well" )
                     // sendIFTTT
@@ -173,11 +174,12 @@ class Settings( val stateManager : StateManager) : Fragment(  ) {
             useWearableSwitch?.requestFocus(  )
             useWear = useWearableSwitch!!.isChecked
 
+            /*
             if ( useWear )
                 stateManager.messageHandler.send( serialize( 1 ) )
             else
                 stateManager.messageHandler.send( serialize( 0 ) )
-
+            */
             stateManager.settingsSetWearable( useWear )
             Log.d( "UseWearable", "clicked " + useWearableSwitch!!.isChecked.toString(  ) + " TODO: CALL WATCH FUNCTION HERE " )
         }

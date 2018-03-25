@@ -27,23 +27,23 @@
         <ImageButton
             android:id="@+id/gestureManager"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+            app:srcCompat="@drawable/ic_hand" />
 
         <ImageButton
             android:id="@+id/eventManager"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+            app:srcCompat="@drawable/ic_graph" />
 
         <ImageButton
             android:id="@+id/settings"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+            app:srcCompat="@drawable/ic_settings" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

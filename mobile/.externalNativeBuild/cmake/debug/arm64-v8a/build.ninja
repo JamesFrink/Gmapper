@@ -54,7 +54,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassification.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/seriesClassification.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassification.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/seriesClassification.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -62,7 +62,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassificat
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/fastDTW.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/fastDTW.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -70,7 +70,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o: CX
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/warpPath.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/warpPath.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -78,7 +78,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o: C
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/dtw.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/dtw.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -86,7 +86,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o: CXX_CO
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/searchWindow.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/searchWindow.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -94,7 +94,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/svmClassification.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/svmClassification.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -102,7 +102,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -110,7 +110,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/l
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/neuralNetwork.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/neuralNetwork.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -118,7 +118,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/modelSet.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/modelSet.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -126,7 +126,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o: C
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/regression.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/regression.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -134,7 +134,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o:
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/src/knnClassification.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/src/knnClassification.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -142,7 +142,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/RapidLib/dependencies/jsoncpp.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -150,7 +150,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/def.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/def.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -158,7 +158,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o: CXX_COMPILER__State
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/GestureClassifier.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/GestureClassifier.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -166,7 +166,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o: CXX_C
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/StateManagerJNI.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/StateManagerJNI.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -174,7 +174,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o: CXX_COM
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/InterfaceJNI.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/InterfaceJNI.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -182,7 +182,7 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o: CXX_COMPIL
 build CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o: CXX_COMPILER__StateManagerJNI ../../../../src/main/cpp/SaveStateManager.cpp
   DEFINES = -DStateManagerJNI_EXPORTS
   DEP_FILE = CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o.d
-  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
+  FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC
   INCLUDES = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include
   IN_ABS = /Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/src/main/cpp/SaveStateManager.cpp
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
@@ -195,9 +195,9 @@ build CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o: CXX_CO
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libStateManagerJNI.so
 
-build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libStateManagerJNI.so: CXX_SHARED_LIBRARY_LINKER__StateManagerJNI CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o | /Users/james/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm64/usr/lib/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/james/Library/Android/sdk/ndk-bundle/platforms/android-23/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
+build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libStateManagerJNI.so: CXX_SHARED_LIBRARY_LINKER__StateManagerJNI CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/seriesClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/fastDTW.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/warpPath.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/dtw.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/searchWindow.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/svmClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/libsvm/libsvm.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/neuralNetwork.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/modelSet.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/regression.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/src/knnClassification.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/RapidLib/dependencies/jsoncpp.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/def.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/GestureClassifier.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/StateManagerJNI.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/InterfaceJNI.cpp.o CMakeFiles/StateManagerJNI.dir/src/main/cpp/SaveStateManager.cpp.o | /Users/james/Library/Android/sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -isystem /Users/james/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/james/Library/Android/sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -L/Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -llog -latomic -lm "/Users/james/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/libs/arm64-v8a/libc++.so"
   OBJECT_DIR = CMakeFiles/StateManagerJNI.dir
   POST_BUILD = :

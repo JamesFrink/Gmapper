@@ -89,10 +89,10 @@ class GestureManager ( val stateManager : StateManager) : Fragment(  )
         val floatButton = view.findViewById< FloatingActionButton >( R.id.FloatingButton_addNewGesture )
         floatButton.setOnClickListener( {
             val builder = AlertDialog.Builder( ( activity as MainActivity ) )
-            builder.setTitle( "Add nl.jamesfrink.gmapper.Gesture" )
+            builder.setTitle( "Add new Gesture" )
             // Set up the input
             val input = EditText( context  )
-            input.hint = "nl.jamesfrink.gmapper.Gesture Name"
+            input.hint = "Gesture name here"
             // Specify the type of input expected; this, for example, sets the input as a password, and will mask the text
             input.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_NORMAL
 
