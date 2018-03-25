@@ -1,3 +1,0 @@
-/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
-/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
-/Users/james/Documents/of_v0.9.8_android_release/examples/android/Gmapper/mobile/.externalNativeBuild/cmake/release/x86/CMakeFiles/StateManagerJNI.dir
